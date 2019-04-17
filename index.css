@@ -1,0 +1,109 @@
+/**************VARIABLES***************/
+body {
+  background-color: #EBF0F1;
+}
+
+body * {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+h1 {
+  color: #EA4A41;
+}
+
+h1 i {
+  margin-right: 8px;
+}
+
+#canvas {
+  margin: 10px 0 40px 0;
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 8px 1px #2C3E50;
+          box-shadow: 0 0 8px 1px #2C3E50;
+}
+
+#color-palette {
+  margin: 10px 0 40px 0;
+}
+
+#palette {
+  border-top: 2px grey solid;
+}
+
+#palette ul {
+  padding: 0;
+}
+
+#palette ul li {
+  list-style-type: none;
+  margin: 20px 0;
+}
+
+#palette ul li label {
+  display: inline-block;
+  color: #1880B6;
+  font-size: 1.3em;
+  width: 120px;
+}
+
+#palette ul li #eraser i, #palette ul li #pen i {
+  font-size: 130%;
+}
+
+#palette ul li .button {
+  margin: 0 10px;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+#palette ul li .colorButton {
+  border-radius: 100%;
+  padding: 20px;
+}
+
+#palette ul li #colorBlack {
+  background-color: black;
+}
+
+#palette ul li #colorBrown {
+  background-color: brown;
+}
+
+#palette ul li #colorRed {
+  background-color: red;
+}
+
+#palette ul li #colorYellow {
+  background-color: yellow;
+}
+
+#palette ul li #colorGreen {
+  background-color: green;
+}
+
+#palette ul li #colorLightBlue {
+  background-color: #0896b9;
+}
+
+#palette ul li #colorBlue {
+  background-color: blue;
+}
+
+.hidden {
+  display: none;
+}
+
+.active {
+  color: red;
+}
+
+.active i {
+  color: red;
+}
+/*# sourceMappingURL=index.css.map */

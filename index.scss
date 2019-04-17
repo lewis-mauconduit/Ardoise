@@ -1,0 +1,90 @@
+/**************VARIABLES***************/
+
+$colorFond : #EBF0F1;
+$coloroTitle : #EA4A41;
+$colorMenu : #1880B6;
+
+body{
+    background-color: $colorFond;
+}
+body *{
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+h1{
+    color: $coloroTitle;
+    i{
+        margin-right: 8px;
+    }
+}
+#canvas{
+    margin: 10px 0 40px 0;
+    background-color: #fff;
+    box-shadow : 0 0 8px 1px #2C3E50;
+}
+#color-palette{
+    margin: 10px 0 40px 0;
+}
+#palette{
+    border-top: 2px grey solid;
+    ul{
+        padding: 0;
+        li{
+            list-style-type: none;
+            margin: 20px 0;
+            label{
+                display: inline-block;
+                color: $colorMenu;
+                font-size: 1.3em;
+                width: 120px;
+            }
+            #eraser, #pen{
+                i{
+                    font-size: 130%;
+                }
+            }
+            .button{
+                margin: 0 10px;
+                padding: 5px 10px;
+                border-radius: 10px;
+            }
+            .colorButton{
+                border-radius: 100%;
+                padding: 20px;
+            }
+            #colorBlack{
+                background-color: black;
+            }
+            #colorBrown{
+                background-color: brown;
+            }
+            #colorRed{
+                background-color: red;
+            }
+            #colorYellow{
+                background-color: yellow;
+            }
+            #colorGreen{
+                background-color: green;
+            }
+            #colorLightBlue{
+                background-color: rgb(8, 150, 185);
+            }
+            #colorBlue{
+                background-color: blue;
+            }
+        }
+    }
+}
+.hidden{
+    display: none;
+}
+.active{
+    color: red;
+        i{
+            color: red;
+      }
+    }
